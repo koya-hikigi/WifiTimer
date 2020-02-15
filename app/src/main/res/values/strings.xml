@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">WifiTimerApp</string>
+    <string name="conneting">接続中</string>
 </resources>

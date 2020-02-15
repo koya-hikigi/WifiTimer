@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="82dp"
+    android:gravity="center_vertical"
+    android:id="@+id/Wifi_Connection_List_item">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:layout_marginStart="16dp">
+
+    <TextView
+        android:id="@+id/ssid_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        tools:text="ITPM_AP3"/>
+
+        <TextView
+            android:id="@+id/Wifi_Connecting_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/conneting"
+            android:textSize="14sp"
+            android:textColor="@android:color/darker_gray"
+            android:visibility="gone"/>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/Wifi_level_imp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginEnd="16dp"/>
+
+
+</LinearLayout>
